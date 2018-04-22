@@ -1,0 +1,39 @@
+
+/*--------------------
+ 	Our Work Section
+---------------------*/
+
+.оur-work{
+	background-color: #fff;
+}
+
+.our-work .grid img{
+	padding: 20px;
+	height: 350px;
+	border-radius: 3px;
+
+	background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+	background-color: #333;
+}
+
+.our-work .grid img.small{
+	flex-basis: 30%;
+}
+
+.our-work .grid img.large{
+	flex-basis: 60%;
+}
+img {
+	width: 30%;
+}
+
+@media (max-width: 1000px){
+
+	.our-work .grid img.small,
+	.our-work .grid img.large{
+		flex-basis: 100%;
+	}
+
+}
