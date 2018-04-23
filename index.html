@@ -4,20 +4,20 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Responsive Landing Page Template With Flexbox</title>
+      <title>Mike Otis</title>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="dist/css/main.css">
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      
    </head>
    <body>
       <header>
-         <h2><a href="#">Cyber-Farms</a></h2>
+         <h2><a href="www.cyber-farms.com">Cyber-Farms</a></h2>
          <nav>
-            <li><a href="#">Home</a></li>
+            
             <li><a href="#my-work">Projects</a></li>
-          
+            
             <li><a href="#contact">Contact</a></li>
          </nav>
       </header>
@@ -38,83 +38,80 @@
             <section id="features" class="container special">
                <div class="row">
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/projectWebsite.png" alt="" /></a>
+                     <a href="/Portfolio" class="image featured"><img src="src/images/projectWebsite.png" alt="" /></a>
                   </article>
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/bass.png" alt="" /></a>
+                     <a href="/Bass" class="image featured"><img src="src/images/bass.png" alt="" /></a>
                   </article>
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/natours.png" alt="" /></a>
+                     <a href="/natours" class="image featured"><img src="src/images/natours.png" alt="" /></a>
                   </article>
                </div>
                <div class="row">
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/bolt.png" alt="" /></a>
+                     <a href="/Boltnetwork" class="image featured"><img src="src/images/bolt.png" alt="www.cyber-farms.com/bolt" /></a>
                   </article>
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/cyberFarms.png" alt="" /></a>
+                     <a href="/project_website" class="image featured"><img src="src/images/cyberFarms.png" alt="" /></a>
                   </article>
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/fb.png" alt="" /></a>
+                     <a href="/fakebook" class="image featured"><img src="src/images/fb.png" alt="" /></a>
                   </article>
                </div>
                <div class="row">
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/everyDayThings.png" alt="" /></a>
+                     <a href="/everyDayThings" class="image featured"><img src="src/images/everyDayThings.png" alt="" /></a>
                   </article>
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/webConf.png" alt="" /></a>
+                     <a href="/webconf/WebConf.html" class="image featured"><img src="src/images/webConf.png" alt="" /></a>
                   </article>
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/armando.png" alt="" /></a>
+                     <a href="/Armando" class="image featured"><img src="src/images/armando.png" alt="" /></a>
                   </article>
                </div>
                <div class="row">
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/excursion.png" alt="" /></a>
+                     <a href="Excursion" class="image featured"><img src="src/images/excursion.png" alt="" /></a>
                   </article>
                   <article class="4u 12u(mobile) special">
-                     <a href="#" class="image featured"><img src="src/images/junction.png" alt="" /></a>
+                     <a href="Junction" class="image featured"><img src="src/images/junction.png" alt="" /></a>
                   </article>
-                 
+                  
                </div>
             </section>
          </div>
       </section>
       <section class="contact-form" id="contact">
          <div class="contact-form-container">
-            <form id="contact" action="" method="post">
-               <h3>Need a website</h3>
-               <h4>Contact me today, and get reply with in 24 hours!</h4>
-               <fieldset>
-                  <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-               </fieldset>
-               <fieldset>
-                  <input placeholder="Your Email Address" type="email" tabindex="2" required>
-               </fieldset>
-               <fieldset>
-                  <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-               </fieldset>
-               <fieldset>
-                  <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-               </fieldset>
-               <fieldset>
-                  <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-               </fieldset>
-               <fieldset>
-                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-               </fieldset>
+            <form id="contact" method="post" action="send_mail.php" >
+               
+               <p>
+                  <label>First Name
+                     <input type="text" name="first_name" required>
+                  </label>
+               </p>
+               <p>
+                  <label>Email
+                     <input type="email" name="email_address">
+                  </label>
+               </p>
+               <p>
+                  <label>Comments
+                     <textarea name="comments" maxlength="500"></textarea>
+                  </label>
+               </p>
+               <p><button>Submit the form</button></p>
             </form>
          </div>
       </section>
       <footer>
          <ul>
-            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-            <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-            <li><a href="#"><i class="fa fa-github-square""></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram""></i></a></li>
+            <li><a href="https://twitter.com/mike_otis1"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="https://www.facebook.com/CUcyberfarms/"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/mike-otis-4bb082118/"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://codepen.io/mikeotis/"><i class="fa fa-codepen"></i></a></li>
+            <li><a href="https://github.com/mikeotis123"><i class="fa fa-github-square""></i></a></li>
+            <li><a href="https://www.instagram.com/mikeotis1/"><i class="fa fa-instagram""></i></a></li>
          </ul>
          <p>Cyber-Farms Copyright @ | 2018 |</p>
       </footer>
